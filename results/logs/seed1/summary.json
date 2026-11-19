@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "stop_reason": null,
+  "prompt_hash": "cfd6cbd2e60f",
+  "git": {
+    "commit": "3f11025275a186b301d3e7bae57780e01be1fbb3",
+    "dirty": false
+  },
+  "seed": 1,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "rounds": 5,
+  "max_tokens": 16000,
+  "reasoning_effort": "none",
+  "true_train": -0.2891993450356428,
+  "true_test": -0.25137040022070345,
+  "true_final_test": -0.2531357799000633,
+  "induced_final_test": -0.5499106768112705,
+  "results": {
+    "true_model": {
+      "success": 0.97,
+      "entered_arm": 1.0,
+      "visited_cue": 1.0,
+      "return": 1.82
+    },
+    "random": {
+      "success": 0.45,
+      "entered_arm": 0.87,
+      "visited_cue": 0.3,
+      "return": 0.08
+    },
+    "induced": {
+      "success": 0.61,
+      "entered_arm": 1.0,
+      "visited_cue": 0.0,
+      "return": 0.58
+    }
+  },
+  "per_round": [
+    {
+      "round": 0,
+      "test": -1.1721395328281057,
+      "final_test": -1.2732564468672416,
+      "success": 0.39,
+      "entered_arm": 1.0,
+      "visited_cue": 0.0,
+      "return": -0.54
+    },
+    {
+      "round": 3,
+      "test": -0.6186769425239583,
+      "final_test": -0.6165529542078265,
+      "success": 0.61,
+      "entered_arm": 1.0,
+      "visited_cue": 0.0,
+      "return": 0.58
+    },
+    {
+      "round": 4,
+      "test": -0.567285223441882,
+      "final_test": -0.5499106768112705,
+      "success": 0.61,
+      "entered_arm": 1.0,
+      "visited_cue": 0.0,
+      "return": 0.58
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38359,
+    "completion_tokens": 33002,
+    "calls": 6,
+    "attempts": 6
+  },
+  "seconds": 391.8401770591736
+}

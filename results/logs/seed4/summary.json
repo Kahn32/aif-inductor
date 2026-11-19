@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "stop_reason": null,
+  "prompt_hash": "cfd6cbd2e60f",
+  "git": {
+    "commit": "3f11025275a186b301d3e7bae57780e01be1fbb3",
+    "dirty": false
+  },
+  "seed": 4,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "rounds": 5,
+  "max_tokens": 16000,
+  "reasoning_effort": "none",
+  "true_train": -0.21540202828178343,
+  "true_test": -0.22752519793725123,
+  "true_final_test": -0.2573215329172864,
+  "induced_final_test": -0.44259781967821815,
+  "results": {
+    "true_model": {
+      "success": 0.95,
+      "entered_arm": 1.0,
+      "visited_cue": 1.0,
+      "return": 1.7
+    },
+    "random": {
+      "success": 0.42,
+      "entered_arm": 0.88,
+      "visited_cue": 0.29,
+      "return": -0.23
+    },
+    "induced": {
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 1.0,
+      "return": 0.0
+    }
+  },
+  "per_round": [
+    {
+      "round": 0,
+      "test": -3.7226310851998936,
+      "final_test": -3.714634629399502,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 0.0,
+      "return": 0.0
+    },
+    {
+      "round": 1,
+      "test": -0.7615138752875324,
+      "final_test": -0.9813310821157529,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 1.0,
+      "return": 0.0
+    },
+    {
+      "round": 2,
+      "test": -0.5697304166495744,
+      "final_test": -0.8362016833440853,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 1.0,
+      "return": 0.0
+    },
+    {
+      "round": 3,
+      "test": -0.4443154779118437,
+      "final_test": -0.4512436144035314,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 0.0,
+      "return": 0.0
+    },
+    {
+      "round": 4,
+      "test": -0.4408660979831852,
+      "final_test": -0.44259781967821815,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 1.0,
+      "return": 0.0
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 27071,
+    "completion_tokens": 20055,
+    "calls": 6,
+    "attempts": 6
+  },
+  "seconds": 307.008052110672
+}

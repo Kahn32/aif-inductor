@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "stop_reason": null,
+  "prompt_hash": "cfd6cbd2e60f",
+  "git": {
+    "commit": "3f11025275a186b301d3e7bae57780e01be1fbb3",
+    "dirty": false
+  },
+  "seed": 2,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "rounds": 5,
+  "max_tokens": 16000,
+  "reasoning_effort": "none",
+  "true_train": -0.26823005492511964,
+  "true_test": -0.2606177522530413,
+  "true_final_test": -0.21415198374570588,
+  "induced_final_test": -1.7866055472185867,
+  "results": {
+    "true_model": {
+      "success": 0.94,
+      "entered_arm": 1.0,
+      "visited_cue": 1.0,
+      "return": 1.52
+    },
+    "random": {
+      "success": 0.31,
+      "entered_arm": 0.83,
+      "visited_cue": 0.36,
+      "return": -0.53
+    },
+    "induced": {
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 1.0,
+      "return": 0.0
+    }
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "test": -3.2811409367153233,
+      "final_test": -3.1553476951376864,
+      "error": "ValueError: max() arg is an empty sequence"
+    },
+    {
+      "round": 2,
+      "test": -2.455886451590352,
+      "final_test": -2.3398359013981365,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 0.0,
+      "return": 0.0
+    },
+    {
+      "round": 3,
+      "test": -2.247109564697874,
+      "final_test": -2.3050310115023884,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 0.0,
+      "return": 0.0
+    },
+    {
+      "round": 4,
+      "test": -2.0330846057016605,
+      "final_test": -1.7866055472185867,
+      "success": 0.0,
+      "entered_arm": 0.0,
+      "visited_cue": 1.0,
+      "return": 0.0
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23899,
+    "completion_tokens": 10585,
+    "calls": 6,
+    "attempts": 6
+  },
+  "seconds": 112.7854151725769
+}
